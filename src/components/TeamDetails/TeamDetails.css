@@ -1,0 +1,76 @@
+.Team-details-area {
+    background: #0E0A2A;
+}
+.teamDetails-container {
+    width: 80%;
+    margin: 30px auto 0;
+    padding-bottom: 10px;
+}
+.details-banner-area {
+    background: #fff;
+    height: 300px;
+}
+.details-banner-area .banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    opacity: 0.4;
+}
+.details-banner-area .logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: 44%;
+}
+.team-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    padding: 15px 15px 10px; 
+    border-radius: 10px;
+    color: #fff;
+}
+.team-details img {
+    width: 400px;
+    border-radius: 10px;
+}
+.team-details svg:not(:root).svg-inline--fa {
+    font-size: 18px;
+    padding-right: 10px;
+}
+.description {
+    color: #fff;
+}
+.description p:first-child {
+    padding-bottom: 30px;
+}
+.social-icon {
+    text-align: center;
+    padding: 15px 0 30px;
+}
+.social-icon svg:not(:root).svg-inline--fa {
+    font-size: 30px;
+    padding: 0 10px;
+}
+.social-icon .twitter-icon {
+    color: #1da1f2;
+}
+.social-icon .facebook-icon {
+    color: #3b5998;
+}
+.social-icon .youtube-icon {
+    color: #ce1f1f;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .team-details img {
+        width: 248px;
+    }
+    .details-banner-area .logo {
+        left: 30%;
+    }
+}

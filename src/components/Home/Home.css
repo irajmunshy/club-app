@@ -1,0 +1,42 @@
+.home-area {
+    background: lightgray;
+}
+.teams-container {
+    width: 80%;
+    margin: 30px auto 0;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 30px;
+}
+.banner-area img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    opacity: 0.8;
+    z-index: 0;
+}
+.banner-area::before {
+    content: 'Premier League';
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    top: 130px;
+    left: 45%;
+    z-index: 1;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .teams-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-area::before {
+        left: 20%;
+    }
+    
+    
+}

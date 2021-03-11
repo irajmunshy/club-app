@@ -1,0 +1,12 @@
+.error {
+    text-align: center;
+    color: lightgray;
+    margin-top: 250px;
+}
+.error span {
+    color: #000;
+    font-weight: bold;
+}
+.error h4 {
+    color: #111;
+}

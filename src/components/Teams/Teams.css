@@ -1,0 +1,24 @@
+.team-info {
+    text-align: center;
+    background: #0E0A2A;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.team-info img {
+    width: 220px;
+}
+.team-info button {
+    padding: 10px 36px;
+    color: #0E0A2A;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: lightgray;
+    border: 2px solid #fff;
+    transition: all .3s ease-in-out;
+}
+.team-info button:hover {
+    color: #fff;
+    background: none;
+}

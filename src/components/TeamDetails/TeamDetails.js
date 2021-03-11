@@ -17,7 +17,7 @@ const TeamDetails = () => {
         fetch(url)
             .then(response => response.json())
             .then(data => setTeam(data.teams[0]))
-    }, [])
+    }, [idTeam])
     
     return (
         <div className="Team-details-area">

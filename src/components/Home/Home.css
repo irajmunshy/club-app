@@ -17,7 +17,7 @@
     z-index: 0;
 }
 .banner-area::before {
-    content: 'Premier League';
+    content: 'Team League';
     position: absolute;
     color: #fff;
     font-size: 30px;

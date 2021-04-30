@@ -1,7 +1,10 @@
-Project Name: club-app.
+Title - Team League.
 
-Site Name: Team League.
+Live Site Link: [https://musing-joliot-f1cfa5.netlify.app/].
 
-Site Overview: Club Related information. Many teams are shown on the home page. Each team has been shown who they are. Each card has a button. Clicking on the button will show the details.
+Overview - 1. Mobile and Desktop Responsive on this web site. 
+           2. There are many club cards on the homepage. Users can export any card they want.
+           3. They user will show the details of the club to which he will export.
+           4. All the details of the club that has been selected will match the wings.
 
-Live Site Link: [https://musing-joliot-f1cfa5.netlify.app/]
+Technology - HTML5, CSS3, Bootstrap5, JavaScript, React JS, Netlify.
